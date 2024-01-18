@@ -31,3 +31,52 @@ a{
     display: flex;
     gap: 8px;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 60px;
+    padding-top: 45px;
+}
+
+.right{
+    background-color: darkgray;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width:500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    width:100px;
+    height: 30px;
+    border-radius: 25px;
+}
