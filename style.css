@@ -120,5 +120,6 @@ button{
 
 .picText{
     width: 150px;
-
+    color: grey;
+    text-align: center;
 }
