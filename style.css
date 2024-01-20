@@ -95,8 +95,8 @@ button{
 
 .images{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    gap: 32px;
 }
 
 .image{
@@ -106,11 +106,19 @@ button{
     padding: 0;
     flex-wrap: wrap;
     align-items: center;
+    /*width: 200px;
+    height: 200px;*/
 }
 
 .pic{
     border: 4px solid #3882F6;
     padding: 0;
-    height: 70px;
-    width: 70px;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.picText{
+    width: 150px;
+
 }
