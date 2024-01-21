@@ -126,4 +126,22 @@ button{
 
 .section3{
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
+
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 900px;
+    flex-wrap: wrap;
+    font-weight: 300;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+}
+
